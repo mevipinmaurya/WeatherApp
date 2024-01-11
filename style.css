@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+}
+
+.m-top-20 {
+    margin-top: 20px;
+}
+
+.m-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.container {
+    border: 1px solid grey;
+    min-height: 75vh;
+    min-width: 30vw;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: #fff; */
+    background-color: #0093E9;
+    background-image: linear-gradient(180deg, #0093E9 0%, #80D0C7 100%);
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.countryName{
+    margin-bottom: 15px;
+}
+.countryName p{
+    font-size: 17px;
+    color: white;
+}
+
+.inputs  {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.inputs input {
+    width: 85%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border: 1px solid lightgrey;
+    border-radius: 25px;
+    padding: 15px;
+    background-color: whitesmoke;
+    font-size: 17px;
+}
+
+.inputs button {
+    /* width: 20%; */
+    border: none;
+    outline: none;
+    border: 1px solid lightgrey;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs button img {
+    width: 16px;
+}
+
+.weather-Image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-Image img {
+    width: 110px;
+}
+
+
+.temp h3 {
+    font-size: 40px;
+    color: white;
+}
+
+.city h3 {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.weather-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.humidity {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+.imgs img {
+    width: 33px;
+}
+
+.wind {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+.values h3 {
+    color: white;
+}
+
+.values p {
+    color: white;
+}

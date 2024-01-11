@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="countryName">
+            <p>India (IN)</p>
+        </div>
+        <div class="inputs">
+            <input type="text" placeholder="Search">
+            <button id="searchBtn"><img src="images/search.png" alt="SearchIcon"></button>
+        </div>
+        <div class="weather-Image m-top-20 m-bottom-20">
+            <img id="weatherImg" src="images/mist.png" alt="mist">
+        </div>
+        <div class="temp m-top-20">
+            <h3>0℃</h3>
+        </div>
+        <div class="city m-top-20">
+            <h3>Berlin</h3>
+        </div>
+
+        <div class="weather-details m-top-20">
+            <div class="humidity">
+                <div class="imgs">
+                    <img src="images/humidity.png" alt="Humidity">
+                </div>
+                <div class="values">
+                    <h3 id="humidityPercent">0%</h3>
+                    <p>Humidity</p>
+                </div>
+            </div>
+
+            <div class="wind">
+                <div class="imgs">
+                    <img src="images/wind.png" alt="Wind">
+                </div>
+                <div class="values">
+                    <h3 id="windSpeed">0.00 km/h</h3>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="app.js"></script>
+</body>
+
+</html>
